@@ -22,8 +22,17 @@ if (isset($_GET['updateid'])) {
         echo "<br /><br />";
 
     }
-    $update = "UPDATE data SET email = [''], passcode=[''] WHERE id = $";
-    echo "<input type='submit' value='submit' />";
+    echo "<button name='update'>UPDATE</button>";
     echo "</form>";
+
+    if (isset($_POST['update'])) {
+        $new_email = $_POST['email'];
+        $new_passcode = $_POST['password'];
+        $update = "UPDATE data SET email ='$new_email', passcode='$new_passcode' WHERE id = $updateid";
+        if (mysqli_query($connection, $update)) {
+            echo "<script> alert('Success updating table')</script>";
+            // header('location: update_table.php');
+        }
+    }
 }
 ?>
