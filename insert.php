@@ -1,5 +1,6 @@
 <?php
 include 'insert_form.html';
+echo "<a href='select_all.php'>SELECT ALL</a>";
 //parameters
 $server = "localhost";
 $username = "root";
