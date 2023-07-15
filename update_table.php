@@ -17,7 +17,6 @@ if (isset($_GET['updateid'])) {
         echo "<label> EMAIL</label><br />";
         echo "<input type='text' name='email'" . "value=" . $line["email"] . " />";
         echo "<br /><br />";
-
         echo "<label> PASSWORD</label><br />";
         echo "<input type='text' name='password' value=" . $line["passcode"] . " />";
         echo "<br /><br />";
