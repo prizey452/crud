@@ -1,5 +1,5 @@
 <?php
-include 'index.php';
+include 'connection.php';
 
 //CREATING A DATABASE, IF IT DOESNT EXIST
 $create_database = "CREATE DATABASE USERS";
