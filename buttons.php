@@ -1,4 +1,4 @@
 <?php
-echo "<a href='select_all.php'>SELECT ALL</a>"
-    , "<a href='index.php'>index.php</a>";
+echo "<a href='select_all.php'>REGISTERED EMAILS</a>"
+    , "<a href='index.php'>HOME</a>";
 ?>
