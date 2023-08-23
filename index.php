@@ -5,11 +5,11 @@ include 'buttons.php';
 echo "
 <form action='' method='post'>
   <label> EMAIL</label><br />
-  <input type='text' name='email' />
+  <input type='email' name='email' />
   <br /><br />
 
   <label> PASSWORD</label><br />
-  <input type='text' name='password'/>
+  <input type='password' name='password' required/>
   <br /><br />
 
   <input type='submit' value='submit'/>
