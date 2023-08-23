@@ -1,13 +1,14 @@
 <?php
-//parameters
-$server = "localhost";
-$username = "root";
-$password = "";
-$database = "users";
+// //parameters
+// $server = "localhost";
+// $username = "root";
+// $password = "";
+// $database = "users";
 
-//establishing a connection to the server
-$connection = mysqli_connect($server, $username, $password, $database);
-
+// //establishing a connection to the server
+// $connection = mysqli_connect($server, $username, $password, $database);
+include 'connection.php';
+include 'buttons.php';
 //check connection success
 if (!$connection) {
     die("<h2>check config, is server alive?</h2>" . mysqli_connect_error());

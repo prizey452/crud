@@ -1,6 +1,6 @@
 <?php
 include 'connection.php';
-echo "<a href='select_all.php'>SELECT ALL</a>";
+include 'buttons.php';
 
 if (isset($_GET['updateid'])) {
 
